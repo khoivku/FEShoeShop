@@ -38,6 +38,7 @@ const ShopSection = () => {
   }, [dispatch]);
 
   // Search product
+  // eslint-disable-next-line
   const searchProducts = products?.filter((product) => {
     if (searchProduct === "") {
       return product;
